@@ -1,2 +1,9 @@
+.
+.
+.
+.
 - name: USE_AUTH_WITH_WSO2
   value: "true"
+.
+.
+.
