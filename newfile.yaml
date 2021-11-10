@@ -7,10 +7,10 @@
 .
 .
 info
-.
-//- name: METRICS_AGE_THRESHOLD
-//  value: 10000 minutes
+
 .
 .
 //- name: DYNAMIC_ZONE_GROUPS
 //  value: "true"
+
+#METRICS_AGE_THERESHOLD
