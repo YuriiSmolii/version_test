@@ -2,12 +2,15 @@
 .
 .
 .
-- name: USE_AUTH_WITH_WSO2
-  value: "true"
+//- name: USE_AUTH_WITH_WSO2
+//  value: "true"
 .
 .
 info
 .
+//- name: METRICS_AGE_THRESHOLD
+//  value: 10000 minutes
 .
 .
-.
+//- name: DYNAMIC_ZONE_GROUPS
+//  value: "true"
