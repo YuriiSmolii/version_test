@@ -1,6 +1,6 @@
 pipeline {
   agent any
-  triggers{ cron('15 30 * * *') }
+  triggers{ cron('50 13 * * *') }
   options {
     disableConcurrentBuilds()
   }
