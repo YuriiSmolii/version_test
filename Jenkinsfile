@@ -1,9 +1,6 @@
 pipeline {
   agent any
-  triggers{ cron('50 13 * * *') }
-  options {
-    disableConcurrentBuilds()
-  }
+  triggers{ cron('00 14 * * *') }
   stages {
     stage('Foo') {
         steps {
