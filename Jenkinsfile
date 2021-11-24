@@ -9,7 +9,7 @@ pipeline {
         steps {
             script {
                 def now = new Date()
-                println now.format("H:mm", TimeZone.getTimeZone('UTC+2'))
+                println now.format("H:mm", TimeZone.getTimeZone('Europe/Kyiv'))
             }
         } 
     }
