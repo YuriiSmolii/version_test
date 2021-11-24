@@ -1,6 +1,6 @@
 pipeline {
   agent any
-  triggers{ cron('15 13 * * *') }
+  triggers{ cron('15 20 * * *') }
   options {
     disableConcurrentBuilds()
   }
@@ -9,7 +9,7 @@ pipeline {
         steps {
             script {
                 def now = new Date()
-                println now.format("Hmm", TimeZone.getTimeZone('UTC+2'))
+                println now.format("H:mm", TimeZone.getTimeZone('UTC+2'))
             }
         } 
     }
