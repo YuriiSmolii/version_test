@@ -1,0 +1,40 @@
+global:
+  ConfigMap:
+    ui:
+      backend:
+        sitename: Chicago
+        timezone: America/Chicago
+  alerts:
+    enabled: false
+  cfg:
+    enabled: true
+  classifier:
+    enabled: false
+  hbs:
+    enabled: false
+  kafka_port:
+    enabled: false
+  lmu:
+    enabled: true
+  lmusim:
+    enabled: true
+  loadp:
+    enabled: false
+  mixed:
+    enabled: true
+  onprem:
+    enabled: false
+  password:
+    enabled: false
+  redis:
+    enabled: false
+  scan:
+    enabled: false
+  sim:
+    enabled: true
+  spc:
+    enabled: false
+  spt:
+    enabled: true
+  vlmus:
+    enabled: false
